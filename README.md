@@ -34,9 +34,13 @@ The raw data ships as one CSV per product category (e.g. `womens_cloth`, `mens_c
 
 ## How to run it
 
+Built with Python 3.11.15.
+
 ```bash
 git clone https://github.com/Tom-HDN/shein-data-cleaning.git
 cd shein-data-cleaning
+conda create -n shein_cleaning python=3.11.15
+conda activate shein_cleaning
 pip install -r requirements.txt
 jupyter notebook notebooks/Shein_Data_Cleaning.ipynb
 ```
